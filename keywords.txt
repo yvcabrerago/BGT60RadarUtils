@@ -1,0 +1,4 @@
+BGT60RadarUtils KEYWORD1
+checkStatus   KEYWORD2
+getCurrentDirection KEYWORD2
+getPreviousDirection    KEYWORD2
