@@ -12,7 +12,7 @@ BGT60RadarUtils radar(&radarShield);
 void setup() {
   Serial.begin(115200);
   Error_t init_status = radarShield.init();
-  if (init_status != OK) {
+  if (init_status == OK) {
     Serial.println("radar init good");
   }
   else {
